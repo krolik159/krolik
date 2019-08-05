@@ -1,0 +1,12 @@
+h1{
+    font-size: 240 
+    font-family:Avantgarde; 
+    color: #DC143C;
+   }
+  
+
+div {
+width: 100px; 
+height: 100px; 
+border: 10px ridge #DC143C;
+}
