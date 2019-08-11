@@ -1,24 +1,62 @@
-h1{
-    font-size: 240 
-    font-family:Avantgarde; 
-    color: #DC143C;
-    }
-  
-.small{
-width: 100px; 
-height: 100px; 
-border: 6px ridge #DC143C;
+.main_table{
+border-radius: 5px;
+margin-top: 128px;
+width: 700px; 
+height: 420px;
+border: 2px solid #A9A9A9;
+box-shadow: 5px 5px #808080;
+background-color: #FFFFFF;
 }
-.big{
-	width: 1000px; 
-height: 500px; 
-border: 2px solid #000000;
-}
-	
 
 .text { text-align: right;
       color: #DC143C;
-font-size: 240 
+font-size: 40 
 }
 
->>>>>>> Branch_0d8bc3b
+.top_string {
+width: 700px; 
+height: 120px;
+border: 1px solid #A9A9A9;
+}
+
+
+.body {
+background-color: #D8BFD8;
+}
+
+.table {
+  
+border-collapse: collapse
+}
+
+
+
+.td {
+border: 1px solid grey;
+width: 100px; 
+height: 60px;
+color: #000000;
+text-align: center;
+font-weight: bold;
+
+}
+
+.td_grey {
+border: 1px solid grey;
+width: 100px; 
+height: 60px;
+background-color: #DCDCDC;
+color: #000000;
+text-align: center;
+font-weight: bold;
+}
+
+.td_orange {
+border: 1px solid grey;
+width: 100px; 
+height: 60px;
+background-color: #F4A460;
+color: #000000;
+font-weight: bold;
+text-align: center;
+}
