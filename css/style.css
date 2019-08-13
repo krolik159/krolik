@@ -1,4 +1,14 @@
-.рамка_калькулятора{
+@font-face {
+  font-family: OpenSans-Light;
+  src: url('../fonts/OpenSans-Light.ttf');
+}
+
+body{
+	font-family: 'OpenSans-Light';
+	background-color: #D8BFD8;
+}
+
+.калькулятор{
 border-radius: 5px;
 margin-top: 128px;
 width: 701px; 
@@ -13,11 +23,17 @@ background-color: #FFFFFF;
 font-size: 40 
 }
 
-.окно_вычислений {
-width: 700px; 
+.калькулятор__окно-вычислений {
+width: 680px; 
 height: 120px;
 border: 1px solid #A9A9A9;
+	text-align: right;
+	font-weight: bold;
+	font-size: 80px;
+	color: #A9A9A9;
+	padding-right: 20px;
 }
+	
 
 
 .цвет_фона {
@@ -37,7 +53,7 @@ border-collapse: collapse
 	color: #A9A9A9;
 	}
 
-.кнопки_основные {
+.калькулятор__кнопка-основная {
 border-right: 1px solid grey;
 border-bottom: 1px solid grey;
 width: 100px; 
@@ -45,10 +61,17 @@ height: 60px;
 color: #000000;
 text-align: center;
 font-weight: bold;
+ 
 
 }
 
-.кнопки_функциональных_вычислений {
+.калькулятор__кнопка-основная:hover{
+	background: #4682B4;
+	cursor: pointer;
+	
+   }
+
+.калькулятор__кнопка-функциональных-вычислений {
 border-right: 1px solid grey;
 border-bottom: 1px solid grey;
 width: 100px; 
@@ -58,12 +81,29 @@ color: #000000;
 text-align: center;
 font-weight: bold;
 }
+.калькулятор__кнопка-функциональных-вычислений:hover{
+	background: #4682B4;
+	cursor: pointer;
+}
 
-.кнопки_арифметических_вычислений {
+.калькулятор__кнопка-арифметических-вычислений {
 border-bottom: 1px solid grey;
 width: 100px; 
 height: 60px;
 background-color: #F4A460;
+color: #000000;
+font-weight: bold;
+text-align: center;
+}
+.калькулятор__кнопка-арифметических-вычислений:hover {
+		background: #4682B4;
+		cursor: pointer;
+}
+
+.калькулятор__кнопка-нижняя {
+	border-right: 1px solid grey;
+	width: 100px; 
+height: 60px;
 color: #000000;
 font-weight: bold;
 text-align: center;
