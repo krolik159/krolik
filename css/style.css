@@ -65,13 +65,15 @@ color: #000000;
 text-align: center;
 font-weight: bold;
  font-size: 14pt;
+  opacity: 0.8;
+  transition: opacity 0.3s;
 
 }
 
 .калькулятор__кнопка-основная:hover{
 	background: #4682B4;
 	cursor: pointer;
-	
+	opacity: 1;
    }
 
 .калькулятор__кнопка-функциональных-вычислений {
@@ -84,10 +86,13 @@ color: #000000;
 text-align: center;
 font-weight: bold;
 font-size: 14pt;
+opacity: 0.8;
+  transition: opacity 0.3s;
 }
 .калькулятор__кнопка-функциональных-вычислений:hover{
 	background: #4682B4;
 	cursor: pointer;
+	opacity: 1;
 }
 
 .калькулятор__кнопка-арифметических-вычислений {
@@ -99,10 +104,13 @@ color: #000000;
 font-weight: bold;
 text-align: center;
 font-size: 14pt;
+opacity: 0.8;
+  transition: opacity 0.3s;
 }
 .калькулятор__кнопка-арифметических-вычислений:hover {
 		background: #4682B4;
 		cursor: pointer;
+		opacity: 1;
 }
 
 .калькулятор__кнопка-нижняя {
@@ -112,9 +120,13 @@ height: 51px;
 color: #000000;
 font-weight: bold;
 text-align: center;
+opacity: 0.8;
+  transition: opacity 0.3s;
 }
 
 .калькулятор__кнопка-ноль {
 	text-align: left;
 	padding-left: 24pt;
+	opacity: 0.8;
+  transition: opacity 0.3s;
 }
