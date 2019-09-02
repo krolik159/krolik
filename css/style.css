@@ -1,10 +1,10 @@
-.main_table{
+.рамка_калькулятора{
 border-radius: 5px;
 margin-top: 128px;
-width: 700px; 
-height: 420px;
-border: 2px solid #A9A9A9;
-box-shadow: 5px 5px 10px 5px #808080;
+width: 701px; 
+height: 423px;
+border: 1px solid #A9A9A9;
+box-shadow: 5px 5px 15px 5px #808080;
 background-color: #FFFFFF;
 }
 
@@ -13,26 +13,33 @@ background-color: #FFFFFF;
 font-size: 40 
 }
 
-.top_string {
+.окно_вычислений {
 width: 700px; 
 height: 120px;
 border: 1px solid #A9A9A9;
 }
 
 
-.body {
+.цвет_фона {
 background-color: #D8BFD8;
 }
 
-.table {
+.таблица_с_кнопками {
   
 border-collapse: collapse
 }
 
+.расчетное_значение {
+	text-align: right;
+	font-weight: bold;
+	padding: 15px;
+	font-size: 40px;
+	color: #A9A9A9;
+	}
 
-
-.td {
-border: 1px solid grey;
+.кнопки_основные {
+border-right: 1px solid grey;
+border-bottom: 1px solid grey;
 width: 100px; 
 height: 60px;
 color: #000000;
@@ -41,8 +48,9 @@ font-weight: bold;
 
 }
 
-.td_grey {
-border: 1px solid grey;
+.кнопки_функциональных_вычислений {
+border-right: 1px solid grey;
+border-bottom: 1px solid grey;
 width: 100px; 
 height: 60px;
 background-color: #DCDCDC;
@@ -51,8 +59,8 @@ text-align: center;
 font-weight: bold;
 }
 
-.td_orange {
-border: 1px solid grey;
+.кнопки_арифметических_вычислений {
+border-bottom: 1px solid grey;
 width: 100px; 
 height: 60px;
 background-color: #F4A460;
